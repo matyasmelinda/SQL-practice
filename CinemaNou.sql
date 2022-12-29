@@ -142,11 +142,13 @@ select * from client where nume like '%n%';
 
 select * from program where idFilm = 2;
 
+-- select only movies that have been reserved less than 5 times
 
 select idFilm, count(idFilm) from rezervari right join program on rezervari.idProgram = program.idProgram
 group by idFilm
 having count(idFilm)<5;
 
+-- calculate the total amount of sales in 2022
 
 select * from rezervari inner join program on rezervari.idProgram = program.dataFilm like '2022%';
 select sum(bilet.pret)from rezervari right join program on rezervari. idProgram = program.idProgram
