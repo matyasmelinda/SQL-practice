@@ -2,13 +2,13 @@ This is an SQL practice from ITF manual testing course.
 
 In MySQL was created a database named 'cinemaNou' and 7 tables: 
 
-*'filme'
-*'program'
-*'actor'
-*'bilet'
-*'rezervari'
-*'client'
-*'produse'
+* 'filme'
+* 'program'
+* 'actor'
+* 'bilet'
+* 'rezervari'
+* 'client'
+* 'produse'
 
 The table 'filme' contains column: 'IDfilm', 'numeFilm', 'durataFilm', 'genFilm', 'idActor'. The table 'program' contains column 'idProgram', 'idFilm', 'dataFilm', 'oraFilm', 'sala'. 
 
