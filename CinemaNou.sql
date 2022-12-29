@@ -142,12 +142,12 @@ select * from client where nume like '%n%';
 
 select * from program where idFilm = 2;
 
-/*ex 5 si 6*/
+
 select idFilm, count(idFilm) from rezervari right join program on rezervari.idProgram = program.idProgram
 group by idFilm
 having count(idFilm)<5;
 
-/*ex 9*/
+
 select * from rezervari inner join program on rezervari.idProgram = program.dataFilm like '2022%';
 select sum(bilet.pret)from rezervari right join program on rezervari. idProgram = program.idProgram
 inner join bilet on bilet.idBilet = rezervari.idBilet
