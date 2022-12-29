@@ -12,4 +12,5 @@ The table 'client' contains column 'idClient', 'nume', 'prenume', 'nrTel', 'vars
 
 The table 'produse' contains column 'idProduse', 'nume', 'pret', 'idBilet'. 
 
-Different queries were performed inside this sql file: [CinemaNou.sql] (https://github.com/matyasmelinda/SQL-practice/blob/cda48ecdff2db21390fc755d86049610e43e3dee/Cinema.sql)
+Different queries were performed inside this sql file: [CinemaNou.sql]
+(https://github.com/matyasmelinda/SQL-practice/blob/cda48ecdff2db21390fc755d86049610e43e3dee/Cinema.sql)
