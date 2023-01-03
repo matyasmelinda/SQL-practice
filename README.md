@@ -1,4 +1,4 @@
-This is an SQL practice from ITF manual testing course. 
+This is an SQL database practice from ITF manual testing course. 
 
 In MySQL was created a database named 'cinemaNou' and 7 tables: 
 
